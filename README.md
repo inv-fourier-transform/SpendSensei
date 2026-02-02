@@ -2,7 +2,7 @@
   <img src="https://img.icons8.com/ios-filled/200/4f46e5/wallet--v2.png" width="120" alt="Expense Management System" />
 </p>
 
-<h2 align="center">Expense Management System</h2>
+<h2 align="center">SpendSensei - An Expense Management System</h2>
 <p align="center"><b>A modern app for tracking, analyzing, & managing your expenses.</b></p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  This project uses a MySQL database for persistent storage, FastAPI for the backend API server, & Streamlit for the interactive frontend interface.
+  SpendSensei uses a MySQL database for persistent storage, FastAPI for the backend API server, & Streamlit for the interactive frontend interface.
 </p>
 
 ---
@@ -30,7 +30,7 @@
 
 
 
-A modern, full-stack web application for tracking, managing, & analyzing personal expenses. The application features a user-friendly interface, powerful analytics, robust data validation, & secure credential management.
+SpendSensei is a modern, full-stack web application for tracking, managing, & analyzing personal expenses. The application features a user-friendly interface, powerful analytics, robust data validation, & secure credential management.
 
 ---
 
@@ -49,6 +49,31 @@ A modern, full-stack web application for tracking, managing, & analyzing persona
 
 ---
 
+## 📸 Screenshots
+
+### 🖥️ Streamlit Application Interface
+![Home Screen](artifacts/screenshots/landing_page.png)
+
+### ✅ Sample Results
+#### Add expenses for different categories
+![Result Screen](artifacts/screenshots/add_expense-1.png)
+![Result Screen](artifacts/screenshots/add_expense-2.png)
+![Result Screen](artifacts/screenshots/add_expense-3.png)
+
+#### Get month-wise analytics by category
+![Result Screen](artifacts/screenshots/month_wise_analytics_by_category.png)
+
+#### Expense drilldown by category
+![Result Screen](artifacts/screenshots/expense_breakdown_by_category.png)
+
+#### Retrieve expenses by note
+![Result Screen](artifacts/screenshots/fetch_expense_details_by_note.png)
+
+---
+
+
+
+
 ## Folder Structure
 
 ```
@@ -64,7 +89,7 @@ Project_Expense_Tracking_System/
 │
 ├── frontend/
 │   ├── __init__.py
-│   ├── app.py                    # Main Streamlit application
+│   ├── app_v2.py                    # Main Streamlit application
 │   ├── add_update.py             # Tab 1: Add/Update expenses
 │   ├── analytics_by_category.py  # Tab 2: Category analytics
 │   ├── analytics_by_month.py     # Tab 3: Monthly analytics
@@ -96,7 +121,7 @@ Project_Expense_Tracking_System/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/expense-management-system.git
+git clone https://github.com/inv-fourier-transform/expense-management-system.git
 cd expense-management-system
 ```
 
@@ -153,7 +178,7 @@ Open a new terminal, navigate to the project directory, & run:
 
 ```bash
 cd frontend
-streamlit run app.py
+streamlit run app_v2.py
 ```
 
 ### 3. Access the Application
