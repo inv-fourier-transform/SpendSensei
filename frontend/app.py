@@ -6,7 +6,7 @@ from analytics_by_day_of_week import analytics_by_day_of_week_tab
 from expenses_by_note import expenses_by_note_tab
 
 # Page title
-st.title("Expense Management System")
+st.title("Spend Sensei: Expense Management System")
 
 # Define 5 tabs
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Add/Update", "Analytics by Category",
